@@ -1,0 +1,76 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "read skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "alexa stop",
+            "stop"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "readwithmeIntent",
+          "slots": [],
+          "samples": [
+            "read ",
+            "read book",
+            "read me ",
+            "read with me"
+          ]
+        },
+        {
+          "name": "PauseIntent",
+          "slots": [],
+          "samples": [
+            "pause",
+            "alexa pause"
+          ]
+        },
+        {
+          "name": "ResumeIntent",
+          "slots": [],
+          "samples": [
+            "alexa resume",
+            "resume alexa",
+            "resume"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "22"
+}
